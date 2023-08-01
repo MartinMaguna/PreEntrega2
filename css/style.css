@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navSetting {
+    background-color: black;
+    height: auto;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.navbar-toggler {
+    background-color: blueviolet;
+}
+
+.form-group-autosetting {
+    margin: 1rem;
+}
+
+.btn-primaryCosmos {
+    background-color: blueviolet;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main__portada {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 80vh;
+}
+
+.main__portada--imagen {
+    height: 50vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.main__contacto {
+    height: 80vh;
+}
+
+.page-title {
+    padding: 1rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-title a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-text {
+    color: #333;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: white;
+    background-color: blueviolet;
+}
